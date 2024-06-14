@@ -1,0 +1,14 @@
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\bin\Debug\net8.0\SistemaVenta.Entity.deps.json
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\bin\Debug\net8.0\SistemaVenta.Entity.runtimeconfig.json
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\bin\Debug\net8.0\SistemaVenta.Entity.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\bin\Debug\net8.0\SistemaVenta.Entity.pdb
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.csproj.AssemblyReference.cache
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.AssemblyInfoInputs.cache
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.AssemblyInfo.cs
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\refint\SistemaVenta.Entity.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.pdb
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\SistemaVenta.Entity.genruntimeconfig.cache
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.Entity\obj\Debug\net8.0\ref\SistemaVenta.Entity.dll
