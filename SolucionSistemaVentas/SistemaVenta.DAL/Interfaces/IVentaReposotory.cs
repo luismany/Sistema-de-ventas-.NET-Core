@@ -10,6 +10,6 @@ namespace SistemaVenta.DAL.Interfaces
     public interface IVentaReposotory : IGenericRepository<Venta>
     {
         Task<Venta> Registrar(Venta entidad);
-        Task<List<Venta>> Reporte(DateTime fechaInicio, DateTime fechaFin);
+        Task<List<DetalleVenta>> Reporte(DateTime fechaInicio, DateTime fechaFin);
     }
 }

@@ -68,9 +68,17 @@ namespace SistemaVenta.DAL.Implementaciones
             return ventaGenerada;
         }
 
-        public Task<List<Venta>> Reporte(DateTime fechaInicio, DateTime fechaFin)
+        public async Task<List<DetalleVenta>> Reporte(DateTime fechaInicio, DateTime fechaFin)
         {
-            throw new NotImplementedException();
+            List<DetalleVenta> listaResumen = await _dbContext.DetalleVenta
+                .Include(v=> v.IdVentaNavigation)
+                .ThenInclude(u=> u.IdUsuarioNavigation)
+                .Include(v=> v.IdVentaNavigation)
+                .ThenInclude(tdv=> tdv.IdTipoDocumentoVentaNavigation)
+                .Where(dv=> dv.IdVentaNavigation.FechaRegistro.Value.Date >= fechaInicio.Date &&
+                dv.IdVentaNavigation.FechaRegistro.Value.Date <= fechaFin.Date).ToListAsync();
+
+            return listaResumen;
         }
     }
 }
