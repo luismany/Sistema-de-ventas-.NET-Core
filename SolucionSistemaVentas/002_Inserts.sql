@@ -16,17 +16,19 @@ insert into Usuario(nombre,correo,telefono,idRol,urlFoto,nombreFoto,clave,esActi
 --(AQUI DEBES INCLUIR TUS PROPIAS CLAVES Y CRENDENCIALES)
 
 insert into Configuracion(recurso,propiedad,valor) values
-('FireBase_Storage','email',''),
-('FireBase_Storage','clave',''),
-('FireBase_Storage','ruta',''),
-('FireBase_Storage','api_key',''),
+('FireBase_Storage','email','webaplicacion82@gmail.com'),
+('FireBase_Storage','clave','webaplicacion82'),
+('FireBase_Storage','ruta','mitiendaonlinenetcore.appspot.com'),
+('FireBase_Storage','api_key','AIzaSyAULRAxVnx6_jtnF2pi4VUan-jnxqzslG8'),
 ('FireBase_Storage','carpeta_usuario','IMAGENES_USUARIO'),
 ('FireBase_Storage','carpeta_producto','IMAGENES_PRODUCTO'),
 ('FireBase_Storage','carpeta_logo','IMAGENES_LOGO')
 
+select * from Configuracion
+
 insert into Configuracion(recurso,propiedad,valor) values
-('Servicio_Correo','correo',''),
-('Servicio_Correo','clave',''),
+('Servicio_Correo','correo','teacher.luis360@gmail.com'),
+('Servicio_Correo','clave','yowewxsvjfquoyvw'),
 ('Servicio_Correo','alias','MiTienda.com'),
 ('Servicio_Correo','host','smtp.gmail.com'),
 ('Servicio_Correo','puerto','587')

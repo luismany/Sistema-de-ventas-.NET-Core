@@ -13,3 +13,4 @@ C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\Si
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.DAL\bin\Debug\net8.0\SistemaVenta.Entity.pdb
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.DAL\obj\Debug\net8.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.DAL\obj\Debug\net8.0\SistemaV.EE7A9206.Up2Date
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.DAL\obj\Debug\net8.0\SistemaVenta.DAL.sourcelink.json

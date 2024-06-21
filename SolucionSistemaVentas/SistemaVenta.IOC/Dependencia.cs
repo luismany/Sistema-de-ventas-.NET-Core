@@ -28,7 +28,8 @@ namespace SistemaVenta.IOC
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaReposotory, VentaRepository>();   
-            services.AddScoped<ICorreoService, ICorreoService>();
+            services.AddScoped<ICorreoService, CorreoService>();
+            services.AddScoped<IFirebaseService, FirebaseService>();
         }
     }
 }

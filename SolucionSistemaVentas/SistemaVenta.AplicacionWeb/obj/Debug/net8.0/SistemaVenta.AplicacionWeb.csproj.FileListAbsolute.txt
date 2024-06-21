@@ -257,3 +257,4 @@ C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\Si
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\obj\Debug\net8.0\SistemaVenta.AplicacionWeb.sourcelink.json
