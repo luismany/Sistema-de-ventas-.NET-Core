@@ -15,17 +15,8 @@ public partial class Usuario
 
     public int? IdRol { get; set; }
 
+    public int? NombreRol { get; set; }
     public string? UrlFoto { get; set; }
 
-    public string? NombreFoto { get; set; }
-
-    public string? Clave { get; set; }
-
-    public bool? EsActivo { get; set; }
-
-    public DateTime? FechaRegistro { get; set; }
-
-    public virtual Rol? IdRolNavigation { get; set; }
-
-    public virtual ICollection<Venta> Venta { get; set; } = new List<Venta>();
+    public int EsActivo { get; set; }
 }

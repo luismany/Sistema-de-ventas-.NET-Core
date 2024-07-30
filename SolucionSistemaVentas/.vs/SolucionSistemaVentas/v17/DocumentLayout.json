@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "SistemaVenta.IOC\\Dependencia.cs",
               "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.IOC\\Dependencia.cs",
               "RelativeToolTip": "SistemaVenta.IOC\\Dependencia.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T03:33:21.947Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "SistemaVenta.DAL\\Implementaciones\\GenericRepository.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAA9wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T03:31:06.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T03:31:06.328Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "SistemaVenta.BLL\\Implementacion\\UsuarioService.cs",
               "ViewState": "AQIAAAEBAAAAAAAAAAAswCQBAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:02:48.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T23:02:48.788Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Utilidades\\Response\\GenericResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:21:34.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T22:21:34.085Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "SistemaVenta.BLL\\Implementacion\\UtilidadesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:30:56.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T21:30:56.384Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "SistemaVenta.BLL\\Interfaces\\IUsuarioService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:49:07.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T22:49:07.637Z"
             }
           ]
         }
