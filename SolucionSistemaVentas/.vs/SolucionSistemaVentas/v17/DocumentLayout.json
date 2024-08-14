@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CFB44F2-82B4-482F-9609-DB4BA9374092}|SistemaVenta.IOC\\SistemaVenta.IOC.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.ioc\\dependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CFB44F2-82B4-482F-9609-DB4BA9374092}|SistemaVenta.IOC\\SistemaVenta.IOC.csproj|solutionrelative:sistemaventa.ioc\\dependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.aplicacionweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.bll\\implementacion\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\implementacion\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.aplicacionweb\\utilidades\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\utilidades\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B44AE783-F388-4B41-94D4-31BACD79AD7B}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.dal\\implementaciones\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44AE783-F388-4B41-94D4-31BACD79AD7B}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|solutionrelative:sistemaventa.dal\\implementaciones\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.aplicacionweb\\models\\viewmodels\\vmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\models\\viewmodels\\vmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.bll\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E69B18C7-F599-45A6-9570-31E3027DC93D}|SistemaVenta.Entity\\SistemaVenta.Entity.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B18C7-F599-45A6-9570-31E3027DC93D}|SistemaVenta.Entity\\SistemaVenta.Entity.csproj|solutionrelative:sistemaventa.entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.bll\\implementacion\\utilidadesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D0FC96F-A5C2-46A4-BD8D-E3F07F312C9D}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\implementacion\\utilidadesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.aplicacionweb\\models\\viewmodels\\vmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\models\\viewmodels\\vmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.aplicacionweb\\utilidades\\response\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA82927B-D4B4-40A1-B207-87E63779F7E2}|SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj|solutionrelative:sistemaventa.aplicacionweb\\utilidades\\response\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E69B18C7-F599-45A6-9570-31E3027DC93D}|SistemaVenta.Entity\\SistemaVenta.Entity.csproj|c:\\users\\luis pulido\\desktop\\sistema de ventas net core\\solucionsistemaventas\\sistemaventa.entity\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B18C7-F599-45A6-9570-31E3027DC93D}|SistemaVenta.Entity\\SistemaVenta.Entity.csproj|solutionrelative:sistemaventa.entity\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,75 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dependencia.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.IOC\\Dependencia.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.IOC\\Dependencia.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.IOC\\Dependencia.cs",
-              "RelativeToolTip": "SistemaVenta.IOC\\Dependencia.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAA6AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Program.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T03:33:21.947Z",
+              "WhenOpened": "2024-08-14T03:36:05.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.DAL\\Implementaciones\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.DAL\\Implementaciones\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.DAL\\Implementaciones\\GenericRepository.cs",
-              "RelativeToolTip": "SistemaVenta.DAL\\Implementaciones\\GenericRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Title": "VMProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMProducto.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMProducto.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMProducto.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T03:31:06.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Implementacion\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.BLL\\Implementacion\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Implementacion\\UsuarioService.cs",
-              "RelativeToolTip": "SistemaVenta.BLL\\Implementacion\\UsuarioService.cs",
-              "ViewState": "AQIAAAEBAAAAAAAAAAAswCQBAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:02:48.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenericResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Utilidades\\Response\\GenericResponse.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Utilidades\\Response\\GenericResponse.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Utilidades\\Response\\GenericResponse.cs",
-              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Utilidades\\Response\\GenericResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:21:34.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UtilidadesService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Implementacion\\UtilidadesService.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.BLL\\Implementacion\\UtilidadesService.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Implementacion\\UtilidadesService.cs",
-              "RelativeToolTip": "SistemaVenta.BLL\\Implementacion\\UtilidadesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:30:56.384Z"
+              "WhenOpened": "2024-08-08T02:59:42.142Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.BLL\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.BLL\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "SistemaVenta.BLL\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.Entity\\Producto.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Entity\\Producto.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.Entity\\Producto.cs",
+              "RelativeToolTip": "SistemaVenta.Entity\\Producto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:49:07.637Z"
+              "WhenOpened": "2024-08-08T02:59:30.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.Entity\\Categoria.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Entity\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.Entity\\Categoria.cs",
+              "RelativeToolTip": "SistemaVenta.Entity\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:49:50.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VMCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMCategoria.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMCategoria.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMCategoria.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Models\\ViewModels\\VMCategoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:49:34.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Utilidades\\Automapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.AplicacionWeb\\Utilidades\\Automapper\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\Utilidades\\Automapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "SistemaVenta.AplicacionWeb\\Utilidades\\Automapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAYwLsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:59:35.592Z",
+              "EditorCaption": ""
             }
           ]
         }

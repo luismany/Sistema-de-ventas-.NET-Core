@@ -1,4 +1,5 @@
 using SistemaVenta.IOC;
+using SistemaVenta.AplicacionWeb.Utilidades.Automapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ builder.Services.AddControllersWithViews();
 
 //agregamos el metodo inyeciondependencia de la clase Dependencia de la capa sistemaventa.IOC
 builder.Services.InyectarDepependencia(builder.Configuration);
+
+//inyectanto automapper
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 var app = builder.Build();
 

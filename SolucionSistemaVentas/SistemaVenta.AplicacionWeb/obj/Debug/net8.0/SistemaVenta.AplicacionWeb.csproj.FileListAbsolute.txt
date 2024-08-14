@@ -260,3 +260,5 @@ C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\Si
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\obj\Debug\net8.0\SistemaVenta.AplicacionWeb.sourcelink.json
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\Firebase.Auth.dll
 C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\Firebase.Storage.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Luis Pulido\Desktop\Sistema de Ventas Net Core\SolucionSistemaVentas\SistemaVenta.AplicacionWeb\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
