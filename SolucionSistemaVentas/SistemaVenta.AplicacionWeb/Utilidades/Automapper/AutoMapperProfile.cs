@@ -180,7 +180,7 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
 
             #endregion
 
-            #region Menu
+         #region Menu
 
             CreateMap<Menu, VMMenu>()
                 .ForMember(destino => destino.SubMenus,
