@@ -14,6 +14,8 @@ namespace SistemaVenta.DAL.Interfaces
         Task<TEntity> Crear(TEntity entidad);
         Task<bool> Editar(TEntity entidad);
         Task<bool> Eliminar(TEntity entidad);
+#pragma warning disable CS8625 // No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.
         Task<IQueryable<TEntity>> Consultar(Expression<Func<TEntity,bool>>filtro=null);
+#pragma warning restore CS8625 // No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.
     }
 }

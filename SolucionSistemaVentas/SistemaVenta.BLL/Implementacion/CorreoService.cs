@@ -22,9 +22,17 @@ namespace SistemaVenta.BLL.Implementacion
         }
         public async Task<bool> EnviarCorreo(string destinatario, string asunto, string mensaje)
         {
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
             IQueryable<Configuracion> query = await _repositorio.Consultar(c => c.Recurso.Equals("Servicio_Correo"));
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
+#pragma warning disable CS8619 // La nulabilidad de los tipos de referencia del valor no coincide con el tipo de destino
+#pragma warning disable CS8621 // La nulabilidad de los tipos de referencia del tipo de valor devuelto no coincide con el delegado de destino (posiblemente debido a los atributos de nulabilidad).
+#pragma warning disable CS8714 // El tipo no se puede usar como parámetro de tipo en el método o tipo genérico. La nulabilidad del argumento de tipo no coincide con la restricción "notnull"
             Dictionary<string, string> config = query.ToDictionary(keySelector: c => c.Propiedad, elementSelector: c => c.Valor);
+#pragma warning restore CS8714 // El tipo no se puede usar como parámetro de tipo en el método o tipo genérico. La nulabilidad del argumento de tipo no coincide con la restricción "notnull"
+#pragma warning restore CS8621 // La nulabilidad de los tipos de referencia del tipo de valor devuelto no coincide con el delegado de destino (posiblemente debido a los atributos de nulabilidad).
+#pragma warning restore CS8619 // La nulabilidad de los tipos de referencia del valor no coincide con el tipo de destino
 
             var credenciales = new NetworkCredential(config["correo"], config["clave"]);
             var correo = new MailMessage()
@@ -41,6 +49,7 @@ namespace SistemaVenta.BLL.Implementacion
             {
                 Host = config["host"],
                 Port = int.Parse(config["puerto"]),
+                Credentials= credenciales,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
                 EnableSsl = true

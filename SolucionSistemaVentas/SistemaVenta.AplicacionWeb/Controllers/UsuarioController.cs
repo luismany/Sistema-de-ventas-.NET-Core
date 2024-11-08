@@ -49,9 +49,12 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
             try
             {
+
                 VMUsuario vmUsuario= JsonConvert.DeserializeObject<VMUsuario>(modelo);
 
+
                 string nombreFoto = "";
+
                 Stream fotoStream= null;
 
                 if (foto != null)
@@ -64,7 +67,9 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
                 string urlPlantillaCorreo = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/EnviarClave?correo=[correo]&clave=[clave]";
 
+
                 Usuario usuarioCreado = await _usuarioService.Crear(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto, urlPlantillaCorreo);
+
 
                 vmUsuario= _mapper.Map<VMUsuario>(usuarioCreado);
 
@@ -91,10 +96,14 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
             try
             {
+
                 VMUsuario vmUsuario = JsonConvert.DeserializeObject<VMUsuario>(modelo);
 
+
                 string nombreFoto = "";
+
                 Stream fotoStream = null;
+
 
                 if (foto != null)
                 {
@@ -102,9 +111,12 @@ namespace SistemaVenta.AplicacionWeb.Controllers
                     string extencion = Path.GetExtension(foto.FileName);
                     nombreFoto = string.Concat(nombreEnCodigo, extencion);
                     fotoStream = foto.OpenReadStream();
+
                 }
 
+
                 Usuario usuarioEditado = await _usuarioService.Editar(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto);
+
 
                 vmUsuario = _mapper.Map<VMUsuario>(usuarioEditado);
 

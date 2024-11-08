@@ -15,6 +15,7 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
             #endregion
 
          #region Usuario
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
             CreateMap<Usuario, VMUsuario>()
                 .ForMember(destino => destino.EsActivo,
                 opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
@@ -22,6 +23,7 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
                 .ForMember(destino => destino.NombreRol,
                 opt => opt.MapFrom(origen => origen.IdRolNavigation.Descripcion)
                 );
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
             CreateMap<VMUsuario, Usuario>()
                 .ForMember(destino => destino.EsActivo,
@@ -33,10 +35,12 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
          #endregion
 
          #region Negocio
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<Negocio, VMNegocio>()
                 .ForMember(destino => destino.PorcentajeImpuesto,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.PorcentajeImpuesto.Value, new CultureInfo("es-NI")))
                 );
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<VMNegocio, Negocio>()
                 .ForMember(destino=> destino.PorcentajeImpuesto,
                 opt=> opt.MapFrom(origen=> Convert.ToDecimal(origen.PorcentajeImpuesto, new CultureInfo("es-NI")))
@@ -59,6 +63,8 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
 
          #region Producto
 
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<Producto, VMProducto>()
                 .ForMember(destino => destino.EsActivo,
                  opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
@@ -69,6 +75,8 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
                 .ForMember(destino => destino.Precio,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.Precio.Value, new CultureInfo("es-NI")))
                 );
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
             CreateMap<VMProducto, Producto>()
                 .ForMember(destino => destino.EsActivo,
                  opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
@@ -90,6 +98,12 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
 
          #region Venta
 
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<Venta, VMVenta>()
                 .ForMember(destino => destino.TipoDocumentoVenta,
                 opt => opt.MapFrom(origen => origen.IdTipoDocumentoVentaNavigation.Descripcion)
@@ -109,6 +123,12 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
                 .ForMember(destino => destino.FechaRegistro,
                 opt => opt.MapFrom(origen => origen.FechaRegistro.Value.ToString("dd/MM/yyyy"))
                 );
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
             CreateMap<VMVenta, Venta>()
 
@@ -128,6 +148,8 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
 
          #region DetalleVenta
 
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<DetalleVenta, VMDetalleVenta>()
              .ForMember(destino => destino.Precio,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.Precio.Value, new CultureInfo("es-NI")))
@@ -135,6 +157,8 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
             .ForMember(destino => destino.Total,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.Total.Value, new CultureInfo("es-NI")))
                 );
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
 
             CreateMap<VMDetalleVenta, DetalleVenta>()
             .ForMember(destino => destino.Precio,
@@ -143,6 +167,20 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
                 .ForMember(destino => destino.Total,
                opt => opt.MapFrom(origen => Convert.ToDecimal(origen.Total, new CultureInfo("es-NI")))
                );
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             CreateMap<DetalleVenta, VMReporteVentas>()
                 .ForMember(destino => destino.FechaRegistro,
                 opt => opt.MapFrom(origen => origen.IdVentaNavigation.FechaRegistro.Value.ToString("dd/MM/yyyy"))
@@ -177,6 +215,20 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
                  .ForMember(destino => destino.Total,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.Total.Value, new CultureInfo("es-NI")))
                 );
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
             #endregion
 

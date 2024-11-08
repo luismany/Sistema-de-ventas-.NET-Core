@@ -41,12 +41,14 @@ namespace SistemaVenta.BLL.Implementacion
 
 
         public async Task<Usuario> Crear(Usuario entidad, Stream foto = null, string nombreFoto = "", string UrlPlantillaCorreo = "")
+
         {
             //validamos si el usuario existe
             Usuario usuarioExiste= await _repositorio.Obtener(u=> u.Correo == entidad.Correo);
             if(usuarioExiste!=null) 
             throw new TaskCanceledException("El correo ya existe");
             
+
 
             try
             {
@@ -77,7 +79,9 @@ namespace SistemaVenta.BLL.Implementacion
                     {
                         using (Stream dataStream= response.GetResponseStream())
                         {
+
                             StreamReader readerStream= null;
+
 
                             if (response.CharacterSet== null)
                              readerStream= new StreamReader(dataStream);
@@ -91,7 +95,9 @@ namespace SistemaVenta.BLL.Implementacion
                     }
 
                     if (htmlCorreo != "")
+
                         await _correoService.EnviarCorreo(usuarioCreado.Correo,"Cuenta Creada",htmlCorreo);
+
 
                 }
 
@@ -106,9 +112,12 @@ namespace SistemaVenta.BLL.Implementacion
                 throw;
             }
 
+
         }
 
+
         public async Task<Usuario> Editar(Usuario entidad, Stream foto = null, string nombreFoto = "")
+
         {
             Usuario usuarioExiste = await _repositorio.Obtener(u => u.Correo == entidad.Correo && u.IdUsuario != entidad.IdUsuario);
             if (usuarioExiste != null)
@@ -124,12 +133,15 @@ namespace SistemaVenta.BLL.Implementacion
                 usuarioEditar.Correo=entidad.Correo;
                 usuarioEditar.Telefono=entidad.Telefono;
                 usuarioEditar.IdRol=entidad.IdRol;
+                usuarioEditar.EsActivo=entidad.EsActivo;
 
                 if (usuarioEditar.NombreFoto == "")
                     usuarioEditar.NombreFoto = nombreFoto;
                 if (foto != null)
                 {
+
                     string urlFoto = await _firebaseService.SubirStorage(foto,"carpeta_usuario",usuarioEditar.NombreFoto);
+
                     usuarioEditar.UrlFoto = urlFoto;
                 }
 
@@ -158,11 +170,15 @@ namespace SistemaVenta.BLL.Implementacion
                 if (usuarioEncontrado == null)
                     throw new TaskCanceledException("usuario no existe");
 
+
                 string nombreFoto = usuarioEncontrado.NombreFoto;
+
                 bool respuesta = await _repositorio.Eliminar(usuarioEncontrado);
 
                 if (respuesta)
+
                     await _firebaseService.EliminarStorage("carpeta_usuario", nombreFoto);
+
 
                 return true;
 
@@ -190,9 +206,13 @@ namespace SistemaVenta.BLL.Implementacion
 
             IQueryable<Usuario> query = await _repositorio.Consultar(u=> u.IdUsuario == idUsuario);
 
+
             Usuario resultado = query.Include(rol => rol.IdRolNavigation).FirstOrDefault();
 
+
+
             return resultado;
+
         }
         public async Task<bool> GuardarPerfil(Usuario entidad)
         {
@@ -262,7 +282,9 @@ namespace SistemaVenta.BLL.Implementacion
                 {
                     using (Stream dataStream = response.GetResponseStream())
                     {
+
                         StreamReader readerStream = null;
+
 
                         if (response.CharacterSet == null)
                             readerStream = new StreamReader(dataStream);

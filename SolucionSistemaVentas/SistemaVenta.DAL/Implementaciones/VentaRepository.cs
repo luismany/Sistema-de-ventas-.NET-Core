@@ -47,7 +47,9 @@ namespace SistemaVenta.DAL.Implementaciones
                     _dbContext.NumeroCorrelativos.Update(correlativo);
                     await _dbContext.SaveChangesAsync();
 
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
                     string ceros = string.Concat(Enumerable.Repeat("0", correlativo.CantidadDigitos.Value));
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
                     string numeroVenta= ceros + correlativo.UltimoNumero.ToString();
                     numeroVenta = numeroVenta.Substring(numeroVenta.Length - correlativo.CantidadDigitos.Value, correlativo.CantidadDigitos.Value);
                     entidad.NumeroVenta=numeroVenta;
@@ -70,6 +72,10 @@ namespace SistemaVenta.DAL.Implementaciones
 
         public async Task<List<DetalleVenta>> Reporte(DateTime fechaInicio, DateTime fechaFin)
         {
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
             List<DetalleVenta> listaResumen = await _dbContext.DetalleVenta
                 .Include(v=> v.IdVentaNavigation)
                 .ThenInclude(u=> u.IdUsuarioNavigation)
@@ -77,6 +83,10 @@ namespace SistemaVenta.DAL.Implementaciones
                 .ThenInclude(tdv=> tdv.IdTipoDocumentoVentaNavigation)
                 .Where(dv=> dv.IdVentaNavigation.FechaRegistro.Value.Date >= fechaInicio.Date &&
                 dv.IdVentaNavigation.FechaRegistro.Value.Date <= fechaFin.Date).ToListAsync();
+#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
             return listaResumen;
         }
