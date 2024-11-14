@@ -21,11 +21,8 @@ namespace SistemaVenta.DAL.Implementaciones
             _dbContext = dbContext;
 
         }
-#pragma warning disable CS8625 // No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.
-#pragma warning disable CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
+
         public async Task<IQueryable<TEntity>> Consultar(Expression<Func<TEntity, bool>> filtro = null)
-#pragma warning restore CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
-#pragma warning restore CS8625 // No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.
         {
             IQueryable<TEntity> queryEntidad = filtro == null ? _dbContext.Set<TEntity>(): _dbContext.Set<TEntity>().Where(filtro) ;
             return  queryEntidad;
@@ -80,12 +77,9 @@ namespace SistemaVenta.DAL.Implementaciones
         {
             try
             {
-#pragma warning disable CS8600 // Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL
+
                 TEntity entidad = await _dbContext.Set<TEntity>().FirstOrDefaultAsync(filtro);
-#pragma warning restore CS8600 // Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL
-#pragma warning disable CS8603 // Posible tipo de valor devuelto de referencia nulo
                 return entidad;
-#pragma warning restore CS8603 // Posible tipo de valor devuelto de referencia nulo
 
             }
             catch

@@ -35,12 +35,12 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
          #endregion
 
          #region Negocio
-#pragma warning disable CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+
             CreateMap<Negocio, VMNegocio>()
                 .ForMember(destino => destino.PorcentajeImpuesto,
                 opt => opt.MapFrom(origen => Convert.ToString(origen.PorcentajeImpuesto.Value, new CultureInfo("es-NI")))
                 );
-#pragma warning restore CS8629 // Un tipo que acepta valores NULL puede ser nulo.
+
             CreateMap<VMNegocio, Negocio>()
                 .ForMember(destino=> destino.PorcentajeImpuesto,
                 opt=> opt.MapFrom(origen=> Convert.ToDecimal(origen.PorcentajeImpuesto, new CultureInfo("es-NI")))
