@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
     },
     {
+      "Id": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Negocio_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Negocio_Index.js"
+    },
+    {
       "Id": "C:\\Users\\Luis Pulido\\Desktop\\Sistema de Ventas Net Core\\SolucionSistemaVentas\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\js\\vistas\\chart-bar-demo.js"
     },
